@@ -1,0 +1,5 @@
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/childprocess-1.0.1/ext
+/opt/bitnami/ruby/bin/ruby mkrf_conf.rb
+
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/childprocess-1.0.1/ext
+/opt/bitnami/ruby/bin/ruby -rrubygems /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/rake-12.3.2/exe/rake RUBYARCHDIR=/var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/extensions/x86_64-linux/2.5.0-static/childprocess-1.0.1 RUBYLIBDIR=/var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/extensions/x86_64-linux/2.5.0-static/childprocess-1.0.1

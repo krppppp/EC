@@ -1,0 +1,15 @@
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/opt/bitnami/ruby/bin/ruby -r ./siteconf20190716-7579-3b2gol.rb extconf.rb
+creating Makefile
+
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+install -c -m 0755 cruby.so ./.gem.20190716-7579-n3rxro/skiptrace/internal

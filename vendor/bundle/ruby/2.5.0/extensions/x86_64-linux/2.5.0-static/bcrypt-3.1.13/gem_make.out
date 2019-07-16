@@ -1,0 +1,19 @@
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+/opt/bitnami/ruby/bin/ruby -r ./siteconf20190716-7579-145am2t.rb extconf.rb
+creating Makefile
+
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" clean
+
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+gcc  -D__SKIP_GNU -DAI_ADDRCONFIG=0 -I/opt/bitnami/common/include  -I/opt/bitnami/sqlite/include -I/opt/bitnami/common/include/sasl -I/opt/bitnami/common/include    -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /var/www/rails/ec_app/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" install
+install -c -m 0755 bcrypt_ext.so ./.gem.20190716-7579-17snnh1
